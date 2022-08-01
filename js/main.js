@@ -320,9 +320,6 @@ function HovyLeeCarousel(){
 
     if ($( 'body' ).hasClass('rtl-mode')) {
         testimonialsCarousel.owlCarousel({
-            autoplay: true,
-            autoplaySpeed: 3000,
-            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -345,9 +342,6 @@ function HovyLeeCarousel(){
         });
     } else {
         testimonialsCarousel.owlCarousel({
-            autoplay: true,
-            autoplaySpeed: 3000,
-            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
