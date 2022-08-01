@@ -217,6 +217,9 @@ function HovyLeeCarousel(){
 
     if ($( "body" ).hasClass('rtl-mode')) {
         featuresCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             rtl:true,
@@ -239,6 +242,9 @@ function HovyLeeCarousel(){
         });  
     }else {
         featuresCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             rtl:true,
@@ -263,6 +269,9 @@ function HovyLeeCarousel(){
 
     if ($( 'body' ).hasClass('rtl-mode')) {
         screenshotsCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -285,6 +294,9 @@ function HovyLeeCarousel(){
         });
     } else {
         screenshotsCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -308,6 +320,9 @@ function HovyLeeCarousel(){
 
     if ($( 'body' ).hasClass('rtl-mode')) {
         testimonialsCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -330,6 +345,9 @@ function HovyLeeCarousel(){
         });
     } else {
         testimonialsCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -353,6 +371,9 @@ function HovyLeeCarousel(){
 
     if ($( 'body' ).hasClass( 'rtl-mode' )) {
         ourTeamCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -375,6 +396,9 @@ function HovyLeeCarousel(){
         });
     } else {
         ourTeamCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -398,6 +422,9 @@ function HovyLeeCarousel(){
 
     if ($( 'body' ).hasClass( 'rtl-mode' )) {
         blogCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
@@ -420,6 +447,9 @@ function HovyLeeCarousel(){
         });
     } else {
         blogCarousel.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            autoplayTimeout: 3000,
             loop:true,
             margin:30,
             dots:true,
