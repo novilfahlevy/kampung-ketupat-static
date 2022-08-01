@@ -9,6 +9,7 @@
 
 // Components
 @import "scss/components/buttons";
+@import "scss/components/card";
 @import "scss/components/animations";
 @import "scss/components/form";
 @import "scss/components/pagination";
@@ -31,6 +32,9 @@
 @import "scss/layout/footer";
 @import "scss/layout/breadcrumb";
 @import "scss/layout/sidebar";
+
+// Custom
+@import "scss/layout/location";
 
 // Pages
 @import "scss/pages/blog_single";

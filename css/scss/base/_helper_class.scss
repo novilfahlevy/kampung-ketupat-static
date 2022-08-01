@@ -89,8 +89,8 @@
         content: "";
         z-index: -1;
         position: absolute;
-        opacity: 0.75;
-        background: $color_primary;
+        opacity: 0.50;
+        background: $color_black;
     }
 }
 // Owl Carousel
@@ -120,6 +120,12 @@
         }
     }
 }
+
+// Custom
+.custom-shadow {
+    box-shadow: 0 5px 15px 0 $color_shadow;
+}
+
 /* ---------------------------------------------------------------- */
 /* Responsive Media Query
  * Extra small devices (portrait phones, less than 576px)
